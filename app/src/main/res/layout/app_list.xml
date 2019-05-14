@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background">
+    <!--Outer Container-->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="963dp"
+        android:layout_height="532dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+        <!--Row A -->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="964dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="36dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="110dp"
+                    android:layout_height="81dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="23dp"
+                    android:contentDescription="@string/pythagoras"
+                    app:srcCompat="@drawable/pythagoras_icon_app" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="43dp"
+                    android:text="@string/pythagoras"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="153dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/pythagoras_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="110dp"
+                    android:layout_height="81dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="25dp"
+                    android:contentDescription="@string/desmos"
+                    app:srcCompat="@drawable/desmos_app"
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="201dp"
+                    android:layout_marginTop="47dp"
+                    android:text="@string/desmos"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="145dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/desmos_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </android.support.constraint.ConstraintLayout>
+        <!-- Row A Ends -->
+        <!--Row B -->
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="964dp"
+            android:layout_height="140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="81dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="25dp"
+                    android:contentDescription="@string/euclidea"
+                    app:srcCompat="@drawable/euclidea_app" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="194dp"
+                    android:layout_marginTop="47dp"
+                    android:text="@string/euclidea"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="139dp"
+                    android:layout_marginTop="71dp"
+                    android:text="@string/euclidea_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="34dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="79dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="25dp"
+                    android:contentDescription="@string/fraction_steps_by_steps"
+                    app:srcCompat="@drawable/fraction_app" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="125dp"
+                    android:layout_marginTop="40dp"
+                    android:text="@string/fraction_steps_by_steps"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="135dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/fraction_steps_by_steps_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </android.support.constraint.ConstraintLayout>
+        <!--Row B Ends -->
+        <!--Row C -->
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="964dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
+
+            <RelativeLayout
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="36dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="91dp"
+                    android:layout_height="91dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="25dp"
+                    android:contentDescription="@string/mostela"
+                    app:srcCompat="@drawable/mostela_app" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="154dp"
+                    android:layout_marginTop="41dp"
+                    android:text="@string/mostela"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="132dp"
+                    android:layout_marginTop="67dp"
+                    android:text="@string/mostela_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="430dp"
+                android:layout_height="139dp"
+                android:layout_marginEnd="34dp"
+                android:background="@drawable/coners_main"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="91dp"
+                    android:layout_height="83dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="25dp"
+                    android:contentDescription="@string/geoGebra_graphing"
+                    app:srcCompat="@drawable/geogebra_app" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="145dp"
+                    android:layout_marginTop="42dp"
+                    android:text="@string/geoGebra_graphing"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="137dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/geoGebra_graphing_app"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </android.support.constraint.ConstraintLayout>
+        <!-- End Row C -->
+    </android.support.constraint.ConstraintLayout>
+    <!-- End Outer Container -->
+</android.support.constraint.ConstraintLayout>
